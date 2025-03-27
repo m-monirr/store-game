@@ -29,9 +29,6 @@ A responsive, interactive game store built with **pure HTML, CSS, and JavaScript
 - **JavaScript** (DOM manipulation, cart logic, filtering system)
 - **Font Awesome** (For icons)
 
-## 🚀 Live Demo
-
-Check out the live version: [GameHub Live Demo](#) <!-- Add your GitHub Pages/Netlify link here -->
 
 ## 📦 Installation & Usage
 
