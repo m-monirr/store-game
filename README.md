@@ -1,6 +1,7 @@
 # 🎮 GameHub - Modern Game Store Website
 
-![GameHub Screenshot](./screenshot.png) <!-- Add a screenshot later -->
+![arcade store](https://github.com/user-attachments/assets/704b79aa-0391-428f-a854-ebec0decf7b4)
+
 
 A responsive, interactive game store built with **pure HTML, CSS, and JavaScript** to showcase frontend development skills.
 
