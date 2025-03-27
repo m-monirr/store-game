@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameHub - Your Ultimate Game Store</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <i class="fas fa-gamepad"></i>
+                <span>GameHub</span>
+            </div>
+            <button class="cart-btn" id="cartBtn">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="cart-count">0</span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Discover Amazing Games</h1>
+                <p>Explore our collection of the latest and greatest games</p>
+                <div class="search-container">
+                    <input type="text" id="searchInput" placeholder="Search games...">
+                    <button id="searchBtn"><i class="fas fa-search"></i></button>
+                </div>
+            </div>
+        </section>
+
+        <section class="filters">
+            <div class="filter-group">
+                <label for="genreFilter">Genre:</label>
+                <select id="genreFilter">
+                    <option value="all">All Genres</option>
+                    <option value="action">Action</option>
+                    <option value="adventure">Adventure</option>
+                    <option value="rpg">RPG</option>
+                    <option value="strategy">Strategy</option>
+                    <option value="sports">Sports</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label for="priceFilter">Price Range:</label>
+                <select id="priceFilter">
+                    <option value="all">All Prices</option>
+                    <option value="0-20">Under $20</option>
+                    <option value="20-40">$20 - $40</option>
+                    <option value="40-60">$40 - $60</option>
+                    <option value="60+">Over $60</option>
+                </select>
+            </div>
+        </section>
+
+        <section class="games-container" id="gamesContainer">
+            <!-- Games will be dynamically inserted here -->
+        </section>
+    </main>
+
+    <div class="cart-modal" id="cartModal">
+        <div class="cart-content">
+            <div class="cart-header">
+                <h2>Your Cart</h2>
+                <button class="close-btn" id="closeCart">&times;</button>
+            </div>
+            <div class="cart-items" id="cartItems">
+                <!-- Cart items will be inserted here -->
+            </div>
+            <div class="cart-total">
+                <span>Total: $<span id="cartTotal">0.00</span></span>
+                <button class="checkout-btn">Checkout</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
